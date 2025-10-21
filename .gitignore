@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+/*.log
+
+# Builds
+/dist
+/build
+/resources/js/dist
+/resources/js/node_modules
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# env
+.env
+
+# logs
+logs/

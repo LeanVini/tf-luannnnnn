@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": ".",
+    "types": ["node", "react", "react-dom"],
+    "typeRoots": ["./node_modules/@types", "./resources/js/node_modules/@types"],
+    "paths": {
+      "*": ["node_modules/*", "resources/js/node_modules/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "resources/js/src/**/*"]
+}
